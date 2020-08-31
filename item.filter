@@ -1,11 +1,5 @@
-﻿//NinjaLoot filter (Pot edition) //Updated for Patch 18 Flint. Last updated 7:06 PM 4/17/2020 by NatureHacker Forked from Anirml 01-29-2020 //OBS still missing new relic code!
-//No Pot Link: https://www.dropbox.com/s/jk9u957wpvxib2x/item.filter?dl=1
-//Pot Link: https://www.dropbox.com/s/sbm8qhcn2nn4jsv/item.filter?dl=1
-//OBS autoupdate will remove any changes made to filter!
 //Find item codes at: https://pathofdiablo.com/wiki/index.php?title=Loot_Filtration_Codes
-//ctrl+f "catch" to familiarize yourself with the catch-all coding.
 //Welcome message
-ItemDisplay[isc CLVL<3]: %GREEN%NinjaLoot Begins Lvl 9 %GRAY%This message will self destruct at lvl 3
 //Turn off filter before lvl 9
 ItemDisplay[CLVL>1 AND CLVL<9]: %NAME%
 //
@@ -75,17 +69,17 @@ ItemDisplay[cx8]: %PURPLE%OOOO OOO OOO OOO Enchantment Orb OOO OOO OOO OOO
 ItemDisplay[cx9]: %PURPLE%OOO OOO OOO OOO %NAME% OOO OOO OOO OOO
 ItemDisplay[ma1]: %PURPLE%OOO OOO OOO OOO %NAME% OOO OOO OOO OOO
 ItemDisplay[ma3]: %PURPLE%OOO OOO OOO OOO %NAME% OOO OOO OOO OOO
-ItemDisplay[ma1 !ID]: %GREEN%OOO OOO OOO OOO %NAME% OOO OOO OOO OOO
-ItemDisplay[ma2 !ID]: %GREEN%OOO OOO OOO OOO %NAME% OOO OOO OOO OOO
-ItemDisplay[ma3 !ID]: %GREEN%OOO OOO OOO OOO %NAME% OOO OOO OOO OOO
-ItemDisplay[ma4 !ID]: %GREEN%OOO OOO OOO OOO %NAME% OOO OOO OOO OOO
-ItemDisplay[ma5 !ID]: %GREEN%OOO OOO OOO OOO %NAME% OOO OOO OOO OOO
-ItemDisplay[ma6 !ID]: %GREEN%OOO OOO OOO OOO %NAME% OOO OOO OOO OOO
-ItemDisplay[ma7 !ID]: %GREEN%OOO OOO OOO OOO %NAME% OOO OOO OOO OOO
-ItemDisplay[ma8 !ID]: %GREEN%OOO OOO OOO OOO %NAME% OOO OOO OOO OOO
-ItemDisplay[ma9 !ID]: %GREEN%OOO OOO OOO OOO %NAME% OOO OOO OOO OOO
-ItemDisplay[ma10 !ID]: %GREEN%OOO OOO OOO OOO %NAME% OOO OOO OOO OOO
-ItemDisplay[maz !ID]: %GREEN%OOO OOO OOO OOO %NAME% OOO OOO OOO OOO
+ItemDisplay[ma1 !ID]: %GREEN%OOO OOO OOO OOO %TAN%%NAME% OOO OOO OOO OOO
+ItemDisplay[ma2 !ID]: %GREEN%OOO OOO OOO OOO %TAN%%NAME% OOO OOO OOO OOO
+ItemDisplay[ma3 !ID]: %GREEN%OOO OOO OOO OOO %TAN%%NAME% OOO OOO OOO OOO
+ItemDisplay[ma4 !ID]: %GREEN%OOO OOO OOO OOO %TAN%%NAME% OOO OOO OOO OOO
+ItemDisplay[ma5 !ID]: %GREEN%OOO OOO OOO OOO %TAN%%NAME% OOO OOO OOO OOO
+ItemDisplay[ma6 !ID]: %GREEN%OOO OOO OOO OOO %TAN%%NAME% OOO OOO OOO OOO
+ItemDisplay[ma7 !ID]: %GREEN%OOO OOO OOO OOO %TAN%%NAME% OOO OOO OOO OOO
+ItemDisplay[ma8 !ID]: %GREEN%OOO OOO OOO OOO %TAN%%NAME% OOO OOO OOO OOO
+ItemDisplay[ma9 !ID]: %GREEN%OOO OOO OOO OOO %TAN%%NAME% OOO OOO OOO OOO
+ItemDisplay[ma10 !ID]: %GREEN%OOO OOO OOO OOO %TAN%%NAME% OOO OOO OOO OOO
+ItemDisplay[maz !ID]: %GREEN%OOO OOO OOO OOO %RED%%NAME% OOO OOO OOO OOO
 ItemDisplay[ma1]: %NAME%
 ItemDisplay[ma2]: %NAME%
 ItemDisplay[ma3]: %NAME%
